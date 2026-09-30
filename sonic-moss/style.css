@@ -1,0 +1,60 @@
+body {
+    margin: 0;
+    padding: 0;
+    overflow: hidden; /* optional: prevents scrollbars */
+  }
+  
+  canvas {
+    display: block;
+    border: none;
+  }
+
+  @font-face {
+    font-family: Fungal-Grow0Thickness500; 
+    src: url(assets/Fungal-Grow0Thickness500.ttf);
+  }
+
+  @font-face {
+    font-family: Fungal-Grow100Thickness500;
+    src: url(assets/Fungal-Grow100Thickness1000.ttf);
+  }
+
+  @font-face {
+    font-family: Fungal-Grow200Thickness1000; 
+    src: url(assets/Fungal-Grow200Thickness1000.ttf);
+  }
+
+  @font-face {
+    font-family: Fungal-Grow300Thickness1000;
+    src: url(assets/Fungal-Grow300Thickness1000.ttf);
+  }
+
+  @font-face {
+    font-family: Fungal-Grow400Thickness1000; 
+    src: url(assets/Fungal-Grow400Thickness1000.ttf);
+  }
+
+  @font-face {
+    font-family: Fungal-Grow500Thickness1000;
+    src: url(assets/Fungal-Grow500Thickness1000.ttf);
+  }
+
+  @font-face {
+    font-family: Fungal-Grow600Thickness1000; 
+    src: url(assets/Fungal-Grow600Thickness1000.ttf);
+  }
+
+  @font-face {
+    font-family: Fungal-Grow700Thickness1000;
+    src: url(assets/Fungal-Grow700Thickness1000.ttf);
+  }
+
+  @font-face {
+    font-family: Fungal-Grow800Thickness1000;
+    src: url(assets/Fungal-Grow500Thickness1000.ttf);
+  }
+
+  @font-face {
+    font-family: Fungal-Grow900Thickness1000; 
+    src: url(assets/Fungal-Grow600Thickness1000.ttf);
+  }
