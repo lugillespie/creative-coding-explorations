@@ -1,0 +1,20 @@
+body {
+    margin: 0;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #f0f0f0;
+}
+
+#centerDiv {
+    width: 100px;
+    height: 100px;
+    opacity: 0;
+    /* transition: border 0.2s ease, opacity 0.2s ease; */
+}
+
+/* .dashed-hover {
+    opacity: 1 !important;
+    border: 2px dashed #333;
+} */
