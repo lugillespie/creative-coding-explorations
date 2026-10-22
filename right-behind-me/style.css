@@ -1,0 +1,70 @@
+body {
+    margin: 0;
+    padding: 24px;
+    font-family: system-ui, sans-serif;
+    text-align: center;
+    background: #111;
+    color: white;
+}
+
+.gif-banner {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    overflow: hidden;
+    cursor: pointer;
+}
+
+.gif-banner img {
+    width: 80px;
+    height: auto;
+    flex-shrink: 0;
+}
+
+.gif-footer {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+
+    position: fixed;
+    bottom: 0;
+    left: 0;
+
+    width: 100%;
+
+    overflow: hidden;
+    z-index: 10;
+    pointer-events: none;
+}
+
+.gif-footer img {
+    height: 80px;
+    width: auto;
+    flex-shrink: 0;
+}
+
+#status {
+    padding-top:5%;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+video {
+    display: none;
+}
+
+canvas {
+    display: block;
+    width: min(90vw, 640px);
+    height: auto;
+    margin: 20px auto;
+    background: #111;
+}
+
+#video {
+    visibility: hidden;
+}
